@@ -5,6 +5,9 @@ import Image from 'next/image';
 import footer from '../public/footerbg.png';
 import { useEffect } from 'react';
 import { FaArrowUp } from "react-icons/fa"
+import Link from 'next/link';
+import FAQ from '../help/faq';
+
 
 const Footer = () => {
 
@@ -79,7 +82,7 @@ const Footer = () => {
               <div className="wow fadeInLeft" data-wow-delay="0.6s">
                 <h3 className="text-lg font-semibold text-gray-800 mb-6">Help</h3>
                 <ul className="list-none space-y-3">
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">FAQ</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-purple-600">FAQ</a></li>
                   <li><a href="#" className="text-gray-600 hover:text-purple-600">Terms & Conditions</a></li>
                   <li><a href="#" className="text-gray-600 hover:text-purple-600">Reporting</a></li>
                   <li><a href="#" className="text-gray-600 hover:text-purple-600">Documentation</a></li>

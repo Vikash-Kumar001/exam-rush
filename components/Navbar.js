@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link'
 import logo from '../public/logo.png'
+import Dropdown from '../pages/dropdown'
 
 const Navbar = () => {
     return (
@@ -26,8 +27,8 @@ const Navbar = () => {
                     <div className="order-1">
                         <div className="flex font-medium space-x-6">
                                 <Link href="/" className="hover:underline" aria-current="page">Home</Link>
-                                <Link href="/about" className="hover:underline">About</Link>
-                                <Link href="/hotquestions" className="hover:underline">Hot Questions</Link>
+                                
+                                <Link href="/hotquestions" className="hover:underline">Hot</Link>
                                 <Link href="/contact" className="hover:underline">Contact</Link>
                         </div>
                     </div>
