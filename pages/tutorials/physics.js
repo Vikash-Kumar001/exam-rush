@@ -1,8 +1,13 @@
 import React from 'react'
+import Head from 'next/head'
 
-const cn = () => {
+const physics = () => {
   return (
-      <div className="min-h-screen flex flex-col py-16">
+    <div>
+        <Head>
+            <title>Semiconductor Physics Tutorial - Learn Physics | Exam Rush</title>
+        </Head>
+        <div className="min-h-screen flex flex-col py-16">
           <div className="flex-1 flex flex-row overflow-y-hidden">
               <main className="flex-1 bg-purple-100 overflow-y-auto">Content here</main>
 
@@ -11,7 +16,8 @@ const cn = () => {
               <aside className="w-[20%] bg-purple-200 overflow-y-auto">Right Sidebar</aside>
           </div>
       </div>
+    </div>
   )
 }
 
-export default cn
+export default physics
